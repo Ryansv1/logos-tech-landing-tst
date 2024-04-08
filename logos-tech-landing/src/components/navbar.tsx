@@ -15,9 +15,11 @@ import {
 } from "@chakra-ui/react";
 
 import { HamburgerIcon } from "@chakra-ui/icons";
+import Link from "next/link";
 
 export default function NavBar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <Container className="bg-logos-primary-bg container-sm flex flex-row justify-between items-center relative z-20">
       <Image src="/logos-white.png" alt="Logos Tech" width={100} height={100} />
@@ -30,9 +32,15 @@ export default function NavBar() {
           <DrawerCloseButton />
           <DrawerHeader className="text-sm">Menu</DrawerHeader>
           <DrawerBody className="flex flex-col gap-4 text-sm">
-            <Button>Sobre nós</Button>
-            <Button>Serviços</Button>
-            <Button>Contato</Button>
+            <Button>
+              <Link href="/sobre-nos">Sobre nós</Link>
+            </Button>
+            <Button>
+              <Link href="/servicos">Serviços</Link>
+            </Button>
+            <Button>
+              <Link href="/contato">Contato</Link>
+            </Button>
           </DrawerBody>
           <DrawerFooter className="text-sm">LogosTech ®2024</DrawerFooter>
         </DrawerContent>

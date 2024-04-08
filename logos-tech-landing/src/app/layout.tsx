@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../../public/globals.css";
 import { Poppins } from "next/font/google";
 import { ChakraProvider } from "@chakra-ui/react";
+import NavBar from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "Logos Tech",
@@ -21,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={poppins.className}>
       <body className="flex flex-col min-h-screen relative font-poppins">
-        <ChakraProvider>{children}</ChakraProvider>
+        <ChakraProvider>
+          <NavBar />
+          {children}
+        </ChakraProvider>
       </body>
     </html>
   );

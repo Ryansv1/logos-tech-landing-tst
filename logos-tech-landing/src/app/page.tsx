@@ -1,4 +1,3 @@
-import NavBar from "@/components/navbar";
 import Image from "next/image";
 import {
   Box,
@@ -14,7 +13,6 @@ export default function Home() {
 
   return (
     <>
-      <NavBar />
       <Center className="container-sm relative text-white">
         <Center className="relative bg-logos-secondary-bg flex flex-col gap-2">
           <Image
@@ -24,7 +22,6 @@ export default function Home() {
             height={50}
             className="w-2/4 p-2 z-10"
           />
-          <div className="h-36 w-full bg-gradient-to-t from-logos-primary-bg from-50% via-black via-10% to-white to-90% border-white border-t-4 rounded-t-full"></div>
         </Center>
       </Center>
       <Container className="container-sm relative text-white py-8 flex flex-col items-center bg-logos-primary-bg gap-4">
