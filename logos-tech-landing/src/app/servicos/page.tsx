@@ -1,7 +1,5 @@
-import * as React from 'react';
+import * as React from "react";
 
-export default function Servicos(){
-    return(
-        
-    )
+export default function Servicos() {
+  return <h1>Serviços</h1>;
 }
