@@ -33,7 +33,7 @@ export default function NavBar() {
           <DrawerHeader className="text-sm">Menu</DrawerHeader>
           <DrawerBody className="flex flex-col gap-4 text-sm">
             <Button>
-              <Link href="/sobre-nos">Sobre nós</Link>
+              <Link href="/">Sobre nós</Link>
             </Button>
             <Button>
               <Link href="/servicos">Serviços</Link>
