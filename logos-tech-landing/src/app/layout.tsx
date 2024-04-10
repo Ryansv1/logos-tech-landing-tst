@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.className}>
-      <body className="flex flex-col min-h-screen relative font-poppins">
+      <body className="flex flex-col min-h-screen min-w-screen relative font-poppins">
         <ChakraProvider>
           <NavBar />
           {children}

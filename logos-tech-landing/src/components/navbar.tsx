@@ -21,7 +21,7 @@ export default function NavBar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Container className="bg-logos-primary-bg container-sm flex flex-row justify-between items-center relative z-20">
+    <section className="bg-logos-primary-bg w-screen px-8 flex flex-row justify-between items-center relative z-20 ">
       <Image src="/logos-white.png" alt="Logos Tech" width={100} height={100} />
       <Button maxBlockSize={"sm"} onClick={onOpen}>
         <HamburgerIcon />
@@ -45,6 +45,6 @@ export default function NavBar() {
           <DrawerFooter className="text-sm">LogosTech ®2024</DrawerFooter>
         </DrawerContent>
       </Drawer>
-    </Container>
+    </section>
   );
 }
