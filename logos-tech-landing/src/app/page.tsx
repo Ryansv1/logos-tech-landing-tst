@@ -31,7 +31,7 @@ export default function Home() {
           />
         </Center>
       </Center>
-      <section className="w-full relative text-white py-8 flex flex-col items-center bg-logos-primary-bg gap-4">
+      <section className="w-full relative text-white py-8 flex flex-col items-center bg-logos-primary-bg gap-4 flex-1">
         <section className="w-full md:w-2/4 px-6 md:px-5 md:pb-10">
           <h1 className="text-md md:text-xl font-bold">Sobre nós:</h1>
           <p className="text-sm md:text-lg">

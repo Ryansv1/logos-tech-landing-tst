@@ -13,10 +13,21 @@ const config: Config = {
       },
       backgroundImage: {
         "servicos-processador": "url('/servicos-processador.jpg')",
+        "servicos-dev": "url('/servicos-dev.jpg')",
+        "servicos-manutencao": "url('/manutencao.jpg')",
+        "servicos-montagem": "url('/montagem.jpg')",
+        "servicos-gamer": "url('/gamer.jpg')",
       },
       colors: {
         "logos-primary-bg": "#060021",
         "logos-secondary-bg": "#130559",
+      },
+      minHeight: {
+        "3/4": "75vh",
+        "2/4": "50vh",
+      },
+      inset: {
+        mid: "200px",
       },
     },
   },
