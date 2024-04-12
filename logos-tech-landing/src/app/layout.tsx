@@ -21,6 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.className}>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      />
       <body className="flex flex-col min-h-screen min-w-screen relative font-poppins">
         <ChakraProvider>
           <NavBar />

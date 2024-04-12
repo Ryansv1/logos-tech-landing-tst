@@ -12,7 +12,7 @@ const config: Config = {
         poppins: "var(--font-poppins)",
       },
       backgroundImage: {
-        "servicos-processador": "url('/servicos-processador.jpg')",
+        "servicos-processador": "url('/cpu.jpg')",
         "servicos-dev": "url('/servicos-dev.jpg')",
         "servicos-manutencao": "url('/manutencao.jpg')",
         "servicos-montagem": "url('/montagem.jpg')",
