@@ -22,7 +22,14 @@ export default function NavBar() {
 
   return (
     <section className="bg-logos-primary-bg w-screen px-8 flex flex-row justify-between items-center relative z-20 ">
-      <Image src="/logos-white.png" alt="Logos Tech" width={100} height={100} />
+      <Link href="/">
+        <Image
+          src="/logos-white.png"
+          alt="Logos Tech"
+          width={100}
+          height={100}
+        />
+      </Link>
       <Button maxBlockSize={"sm"} onClick={onOpen}>
         <HamburgerIcon />
       </Button>

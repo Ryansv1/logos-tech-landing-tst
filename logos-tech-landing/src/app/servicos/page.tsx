@@ -28,10 +28,7 @@ export default function Servicos() {
         className="bg-servicos-manutencao min-h-2/4 w-full relative bg-[center] bg-cover"
       >
         <motion.div className="bg-gradient-to-b from-logos-primary-bg absolute inset-x-0 left-0 w-full p-10">
-          <motion.h1
-            animate={{ scale: isContainerInView ? 1 : 0 }}
-            className="text-sm md:text-2xl font-bold text-center"
-          >
+          <motion.h1 className="text-sm md:text-2xl font-bold text-center">
             Manutenção preventiva e corretiva
           </motion.h1>
         </motion.div>

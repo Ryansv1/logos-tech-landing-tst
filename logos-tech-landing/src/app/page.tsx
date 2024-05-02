@@ -3,9 +3,7 @@ import Image from "next/image";
 import {
   Box,
   Center,
-  Container,
   Divider,
-  Heading,
   ListItem,
   UnorderedList,
 } from "@chakra-ui/react";
@@ -34,13 +32,20 @@ export default function Home() {
       <section className="w-full relative text-white py-8 flex flex-col items-center bg-logos-primary-bg gap-4 flex-1">
         <section className="w-full md:w-2/4 px-6 md:px-5 md:pb-10">
           <h1 className="text-md md:text-xl font-bold">Sobre nós:</h1>
-          <p className="text-sm md:text-lg">
-            A Logos Tech é uma empresa de assistência técnica especializada em
-            manutenção e desenvolvimento de aplicações sob medida que vai além
-            do suporte tradicional. Somos parceiros que se dedicam ao seu
-            equipamento, oferecendo soluções completas e personalizadas para
-            atender às suas necessidades específicas.
-          </p>
+          <span className="space-y-4">
+            <p className="text-sm md:text-lg">
+              A Logos Tech é uma empresa de assistência técnica especializada em
+              manutenção e desenvolvimento de aplicações sob medida que vai além
+              do suporte tradicional. Somos parceiros que se dedicam ao seu
+              equipamento, oferecendo soluções completas e personalizadas para
+              atender às suas necessidades específicas.
+            </p>
+            <p className="text-sm md:text-lg">
+              Possuímos princípios Cristãos antes de tudo, e a além do mais já
+              fomos clientes, portanto, compreendemos a importância de um
+              serviço de qualidade e eficiente!
+            </p>
+          </span>
         </section>
         <section className="flex flex-col sm:flex-row gap-4 items-center justify-between bg-logos-secondary-bg md:p-6 p-3 rounded-md mx-4 box-content">
           <Box className="text-sm md:text-lg p-1 flex flex-col gap-2">
@@ -63,10 +68,12 @@ export default function Home() {
               Com a Logos tech você pode contar com:
             </h1>
             <UnorderedList>
-              <ListItem>Manutenção preventiva e corretiva:</ListItem>
-              <ListItem>Desenvolvimento de aplicações sob medida:</ListItem>
-              <ListItem>Suporte técnico ágil e eficiente:</ListItem>
-              <ListItem>Consultoria especializada:</ListItem>
+              <ListItem>Profissionais capacitados e aptos</ListItem>
+              <ListItem>Zelo e cuidado com seu equipamento</ListItem>
+              <ListItem>
+                Profissionais que antes de tudo, já foram clientes
+              </ListItem>
+              <ListItem>uma empresa de princípios Cristãos</ListItem>
             </UnorderedList>
           </Box>
         </section>
